@@ -1,0 +1,14 @@
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Config\bin\Debug\CEO_Configuration.exe
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Config\bin\Debug\CEO_Configuration.pdb
+D:\CEO-SOFTWARE\CEO_Framework\CEO_STORE\bin\Debug\Mudule\CEO_Configuration.pdb
+D:\CEO-SOFTWARE\CEO_Framework\CEO_STORE\bin\Debug\Mudule\CEO_Configuration.dll.config
+D:\CEO-SOFTWARE\CEO_Framework\CEO_STORE\bin\Debug\Mudule\CEO_Configuration.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO_STORE\bin\Debug\Modules\CEO_Configuration.dll.config
+D:\CEO-SOFTWARE\CEO_Framework\CEO_STORE\bin\Debug\Modules\CEO_Configuration.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO_STORE\bin\Debug\Modules\CEO_Configuration.pdb
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Config\obj\x86\Debug\CEO_Config.Form1.resources
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Config\obj\x86\Debug\CEO_Configuration.Properties.Resources.resources
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Config\obj\x86\Debug\CEO_Configuration.Setting.Setting.resources
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Config\obj\x86\Debug\CEO_Configuration.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Config\obj\x86\Debug\CEO_Configuration.pdb
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Config\obj\x86\Debug\CEO_Configuration.csproj.GenerateResource.Cache

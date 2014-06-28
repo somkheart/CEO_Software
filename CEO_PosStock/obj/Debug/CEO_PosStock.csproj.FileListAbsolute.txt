@@ -1,0 +1,4 @@
+D:\CEO-SOFTWARE\CEO_Framework\CEO_PosStock\bin\Debug\CEO_PosStock.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO_PosStock\bin\Debug\CEO_PosStock.pdb
+D:\CEO-SOFTWARE\CEO_Framework\CEO_PosStock\obj\Debug\CEO_PosStock.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO_PosStock\obj\Debug\CEO_PosStock.pdb

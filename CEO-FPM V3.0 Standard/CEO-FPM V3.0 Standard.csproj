@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{55F83AA8-7614-45FE-A443-3EC892E0DDA1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CEO_FPM_V3._0_Standard</RootNamespace>
+    <AssemblyName>CEO-FPM V3.0 Standard</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.ZKFPEngXControl">
+      <HintPath>C:\Users\somkheart\Desktop\CM5000\CM5000\URU Digital Persona\URU\sdk\Many\Samples\c#\WindowsApplication1\bin\Debug\AxInterop.ZKFPEngXControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.ZKFPEngXControl">
+      <HintPath>C:\Users\somkheart\Desktop\CM5000\CM5000\URU Digital Persona\URU\sdk\Many\Samples\c#\WindowsApplication1\bin\Debug\Interop.ZKFPEngXControl.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\CEO_FingerScan\bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ctrl\ctlLogo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ctrl\ctlLogo.Designer.cs">
+      <DependentUpon>ctlLogo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ctrl\CtrlBackground.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ctrl\CtrlBackground.Designer.cs">
+      <DependentUpon>CtrlBackground.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ctrl\CtrlControlBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ctrl\CtrlControlBar.Designer.cs">
+      <DependentUpon>CtrlControlBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ctrl\CtrlExportButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ctrl\CtrlExportButton.Designer.cs">
+      <DependentUpon>CtrlExportButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ctrl\CtrlLogin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ctrl\CtrlLogin.Designer.cs">
+      <DependentUpon>CtrlLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ctrl\CtrlRegister.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ctrl\CtrlRegister.Designer.cs">
+      <DependentUpon>CtrlRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="License\ProductKey.cs" />
+    <Compile Include="Model\Setting.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Ctrl\ctlLogo.resx">
+      <DependentUpon>ctlLogo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ctrl\CtrlBackground.resx">
+      <DependentUpon>CtrlBackground.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ctrl\CtrlControlBar.resx">
+      <DependentUpon>CtrlControlBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ctrl\CtrlExportButton.resx">
+      <DependentUpon>CtrlExportButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ctrl\CtrlLogin.resx">
+      <DependentUpon>CtrlLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ctrl\CtrlRegister.resx">
+      <DependentUpon>CtrlRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Manual\manual.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StatusBar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Standard.png" />
+    <None Include="Resources\Screenshot_4.png" />
+    <None Include="Resources\Screenshot_3.png" />
+    <None Include="Resources\Untitled-4.png" />
+    <None Include="Resources\Untitled-3.png" />
+    <None Include="Resources\Untitled-2.png" />
+    <None Include="Resources\Untitled-1.png" />
+    <None Include="Resources\menu2-a1.png" />
+    <None Include="Resources\menu1-a3.png" />
+    <None Include="Resources\LOGIN-031.png" />
+    <None Include="Resources\LOGIN-041.png" />
+    <None Include="Resources\bb11.png" />
+    <None Include="Resources\bb1.png" />
+    <None Include="Resources\Register-Activate-OK1.png" />
+    <None Include="Resources\about-4.png" />
+    <None Include="Resources\main_r4_c1.jpg" />
+    <None Include="Resources\main_r2_c9.jpg" />
+    <None Include="Resources\main_r2_c7.jpg" />
+    <None Include="Resources\main_r2_c2.jpg" />
+    <None Include="Resources\F-62.png" />
+    <None Include="Resources\F-61.png" />
+    <None Include="Resources\menu3-a1.png" />
+    <None Include="Resources\menu4-a1.png" />
+    <None Include="Resources\menu1-a2.png" />
+    <None Include="Resources\text5.png" />
+    <None Include="Resources\text4.png" />
+    <None Include="Resources\text3.png" />
+    <None Include="Resources\text2.png" />
+    <None Include="Resources\text1.png" />
+    <None Include="Resources\status2.png" />
+    <None Include="Resources\status1.png" />
+    <None Include="Resources\menu4-b.png" />
+    <None Include="Resources\menu4-a.png" />
+    <None Include="Resources\menu3b.png" />
+    <None Include="Resources\menu3-a.png" />
+    <None Include="Resources\menu2-b.png" />
+    <None Include="Resources\menu2-a.png" />
+    <None Include="Resources\menu1-b.png" />
+    <None Include="Resources\menu1-a1.png" />
+    <None Include="Resources\main-BG-031.png" />
+    <None Include="Resources\main-BG-02.png" />
+    <None Include="Resources\main-BG-011.png" />
+    <None Include="Resources\LOGIN-04.png" />
+    <None Include="Resources\LOGIN-03.png" />
+    <None Include="Resources\LOGIN-02.png" />
+    <None Include="Resources\LOGIN-01.png" />
+    <None Include="Resources\Line2.png" />
+    <None Include="Resources\Line11.png" />
+    <None Include="Resources\F-9.png" />
+    <None Include="Resources\F-8.png" />
+    <None Include="Resources\F-7.png" />
+    <None Include="Resources\F-6.png" />
+    <None Include="Resources\F-5.png" />
+    <None Include="Resources\F-4.png" />
+    <None Include="Resources\F-3.png" />
+    <None Include="Resources\F-2.png" />
+    <None Include="Resources\F-1.png" />
+    <None Include="Resources\CEO-LOGO1.png" />
+    <None Include="Resources\button-3.png" />
+    <None Include="Resources\button-2.png" />
+    <None Include="Resources\button-1.png" />
+    <None Include="Resources\menu1-a.png" />
+    <None Include="Resources\LOGIN-1.png" />
+    <None Include="Resources\New-Logo.png" />
+    <None Include="Resources\main-BG-01.png" />
+    <None Include="Resources\Register-Activate-OK.png" />
+    <None Include="Resources\CEO-LOGO.png" />
+    <None Include="Resources\About US -5.png" />
+    <None Include="Resources\about-3.png" />
+    <Content Include="Resources\Line1.png" />
+    <None Include="Resources\main-BG-03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CEO_Authentication\CEO_Authentication.csproj">
+      <Project>{E93027EB-80A8-4A90-BEFF-5ED7B6E1FB99}</Project>
+      <Name>CEO_Authentication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CEO_Devices\CEO_Devices.csproj">
+      <Project>{DEC0F609-D042-4054-B368-B2EB0AE3B3AD}</Project>
+      <Name>CEO_Devices</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CEO_FingerLicense\CEO_License.csproj">
+      <Project>{B5393198-1E55-41E5-9573-B44C79FC9B15}</Project>
+      <Name>CEO_License</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CE_FingerScan\CEO_FingerScan.csproj">
+      <Project>{F12724F9-6246-4A9C-9892-FA2045E745B3}</Project>
+      <Name>CEO_FingerScan</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

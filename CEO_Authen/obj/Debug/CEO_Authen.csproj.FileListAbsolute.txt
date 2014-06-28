@@ -1,0 +1,5 @@
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Authen\bin\Debug\CEO_Authen.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Authen\bin\Debug\CEO_Authen.pdb
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Authen\obj\Debug\ResolveAssemblyReference.cache
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Authen\obj\Debug\CEO_Authen.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Authen\obj\Debug\CEO_Authen.pdb

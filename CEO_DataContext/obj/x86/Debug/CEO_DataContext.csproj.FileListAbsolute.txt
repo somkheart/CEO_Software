@@ -1,0 +1,10 @@
+D:\CEO-SOFTWARE\CEO_Framework\CEO_DataContext\bin\Debug\CEO_DataContext.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO_DataContext\bin\Debug\CEO_DataContext.pdb
+D:\CEO-SOFTWARE\CEO_Framework\CEO_DataContext\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\CEO-SOFTWARE\CEO_Framework\CEO_DataContext\obj\x86\Debug\CEO_DataContext.Properties.Resources.resources
+D:\CEO-SOFTWARE\CEO_Framework\CEO_DataContext\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\CEO-SOFTWARE\CEO_Framework\CEO_DataContext\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\CEO-SOFTWARE\CEO_Framework\CEO_DataContext\obj\x86\Debug\CEO_DataContext.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO_DataContext\obj\x86\Debug\CEO_DataContext.pdb
+D:\CEO-SOFTWARE\CEO_Framework\CEO_STORE\bin\Debug\Modules\CEO_DataContext.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO_STORE\bin\Debug\Modules\CEO_DataContext.pdb

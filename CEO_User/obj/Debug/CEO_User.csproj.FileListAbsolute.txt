@@ -1,0 +1,8 @@
+D:\CEO-SOFTWARE\CEO_Framework\CEO_User\obj\Debug\ResolveAssemblyReference.cache
+D:\CEO-SOFTWARE\CEO_Framework\CEO_User\obj\Debug\GenerateResource.read.1.tlog
+D:\CEO-SOFTWARE\CEO_Framework\CEO_User\obj\Debug\GenerateResource.write.1.tlog
+D:\CEO-SOFTWARE\CEO_Framework\CEO_User\bin\Debug\CEO_User.exe
+D:\CEO-SOFTWARE\CEO_Framework\CEO_User\bin\Debug\CEO_User.pdb
+D:\CEO-SOFTWARE\CEO_Framework\CEO_User\obj\Debug\CEO_User.exe
+D:\CEO-SOFTWARE\CEO_Framework\CEO_User\obj\Debug\CEO_User.pdb
+D:\CEO-SOFTWARE\CEO_Framework\CEO_User\obj\Debug\CEO_User.userMain.resources

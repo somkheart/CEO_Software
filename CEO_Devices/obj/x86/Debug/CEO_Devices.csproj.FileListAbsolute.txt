@@ -1,0 +1,14 @@
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Devices\bin\Debug\CEO_Devices.dll.config
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Devices\bin\Debug\CEO_Devices.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Devices\bin\Debug\CEO_Devices.pdb
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Devices\bin\Debug\AxInterop.ZKFPEngXControl.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Devices\obj\x86\Debug\CEO_Devices.Camera.ctlCamera.resources
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Devices\obj\x86\Debug\CEO_Devices.FingerScan.ctlBioKey.resources
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Devices\obj\x86\Debug\CEO_Devices.Properties.Resources.resources
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Devices\obj\x86\Debug\CEO_Devices.SmartCard.ctlSmardCard.resources
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Devices\obj\x86\Debug\CEO_Devices.SmartCard.ctlSmardCardPanel.resources
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Devices\obj\x86\Debug\CEO_Devices.SmartCard.frmProgress.resources
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Devices\obj\x86\Debug\CEO_Devices.csproj.GenerateResource.Cache
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Devices\obj\x86\Debug\CEO_Devices.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Devices\obj\x86\Debug\CEO_Devices.pdb
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Devices\obj\x86\Debug\CEO_Devices.csprojResolveAssemblyReference.cache

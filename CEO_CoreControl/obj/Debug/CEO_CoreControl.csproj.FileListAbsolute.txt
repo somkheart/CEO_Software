@@ -1,0 +1,8 @@
+D:\CEO-SOFTWARE\CEO_Framework\CEO_CoreControl\bin\Debug\CEO_CoreControl.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO_CoreControl\bin\Debug\CEO_CoreControl.pdb
+D:\CEO-SOFTWARE\CEO_Framework\CEO_CoreControl\obj\Debug\ResolveAssemblyReference.cache
+D:\CEO-SOFTWARE\CEO_Framework\CEO_CoreControl\obj\Debug\CEO_CoreControl.Address.Address.resources
+D:\CEO-SOFTWARE\CEO_Framework\CEO_CoreControl\obj\Debug\GenerateResource.read.1.tlog
+D:\CEO-SOFTWARE\CEO_Framework\CEO_CoreControl\obj\Debug\GenerateResource.write.1.tlog
+D:\CEO-SOFTWARE\CEO_Framework\CEO_CoreControl\obj\Debug\CEO_CoreControl.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO_CoreControl\obj\Debug\CEO_CoreControl.pdb

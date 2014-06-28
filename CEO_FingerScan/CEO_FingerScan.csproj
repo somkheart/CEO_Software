@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9F28118E-4F8D-487B-B7AA-6C0F89A33F3E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CEO_FingerScan</RootNamespace>
+    <AssemblyName>CEO_FingerScan</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>C:\Documents and Settings\user\My Documents\Downloads\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ctlBioKey.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctlBioKey.Designer.cs">
+      <DependentUpon>ctlBioKey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataModel\Setting.cs" />
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetting.Designer.cs">
+      <DependentUpon>frmSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ctlBioKey.resx">
+      <DependentUpon>ctlBioKey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetting.resx">
+      <DependentUpon>frmSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxZKFPEngXControl">
+      <Guid>{D95CB779-00CB-4B49-97B9-9F0B61CAB3C1}</Guid>
+      <VersionMajor>3</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="ZKFPEngXControl">
+      <Guid>{D95CB779-00CB-4B49-97B9-9F0B61CAB3C1}</Guid>
+      <VersionMajor>3</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fingerPrint-BG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\AfterFinger\l0.png" />
+    <Content Include="Resources\AfterFinger\l1.png" />
+    <Content Include="Resources\AfterFinger\l2.png" />
+    <Content Include="Resources\AfterFinger\l3.png" />
+    <Content Include="Resources\AfterFinger\l4.png" />
+    <Content Include="Resources\AfterFinger\l5.png" />
+    <Content Include="Resources\AfterFinger\r0.png" />
+    <Content Include="Resources\AfterFinger\r1.png" />
+    <Content Include="Resources\AfterFinger\r2.png" />
+    <Content Include="Resources\AfterFinger\r3.png" />
+    <Content Include="Resources\AfterFinger\r4.png" />
+    <Content Include="Resources\AfterFinger\r5.png" />
+    <Content Include="Resources\BeforeFinger\fingerPrint-BG.jpg" />
+    <Content Include="Resources\BeforeFinger\l0.png" />
+    <Content Include="Resources\BeforeFinger\l1.png" />
+    <Content Include="Resources\BeforeFinger\l2.png" />
+    <Content Include="Resources\BeforeFinger\l3.png" />
+    <Content Include="Resources\BeforeFinger\l4.png" />
+    <Content Include="Resources\BeforeFinger\l5.png" />
+    <Content Include="Resources\BeforeFinger\r0.png" />
+    <Content Include="Resources\BeforeFinger\r1.png" />
+    <Content Include="Resources\BeforeFinger\r2.png" />
+    <Content Include="Resources\BeforeFinger\r3.png" />
+    <Content Include="Resources\BeforeFinger\r4.png" />
+    <Content Include="Resources\BeforeFinger\r5.png" />
+    <None Include="Resources\setting_r4_c6.jpg" />
+    <None Include="Resources\setting_r4_c6_f2.jpg" />
+    <None Include="Resources\setting_r4_c4.jpg" />
+    <None Include="Resources\setting_r4_c4_f2.jpg" />
+    <None Include="Resources\setting_r6_c3.jpg" />
+    <None Include="Resources\setting_r6_c3_f21.jpg" />
+    <None Include="Resources\setting_r6_c3_f2.jpg" />
+    <None Include="Resources\setting_r6_c2_f2.jpg" />
+    <None Include="Resources\main-no-finger.jpg" />
+    <None Include="Resources\main-no-finger1.jpg" />
+    <None Include="Resources\spacer.gif" />
+    <None Include="Resources\main0_r5_c3_f2.jpg" />
+    <None Include="Resources\main0_r5_c3.jpg" />
+    <None Include="Resources\main0_r4_c7_f2.jpg" />
+    <None Include="Resources\main0_r4_c7.jpg" />
+    <None Include="Resources\main0_r4_c3_f2.jpg" />
+    <None Include="Resources\main0_r4_c3.jpg" />
+    <None Include="Resources\main0_r4_c2_f2.jpg" />
+    <None Include="Resources\main0_r4_c2.jpg" />
+    <None Include="Resources\main0_r3_c2_f2.jpg" />
+    <None Include="Resources\main0_r3_c2.jpg" />
+    <None Include="Resources\main0_r2_c6_f2.jpg" />
+    <None Include="Resources\main0_r2_c6.jpg" />
+    <None Include="Resources\main0_r2_c5_f2.jpg" />
+    <None Include="Resources\main0_r2_c51.jpg" />
+    <None Include="Resources\main0_r2_c4_f2.jpg" />
+    <None Include="Resources\main0_r2_c4.jpg" />
+    <None Include="Resources\main0_r2_c2_f21.jpg" />
+    <None Include="Resources\main0_r2_c21.jpg" />
+    <None Include="Resources\main0_r1_c2_f2.jpg" />
+    <None Include="Resources\main0_r1_c2.jpg" />
+    <None Include="Resources\main0_r1_c1_f2.jpg" />
+    <None Include="Resources\main0_r1_c1.jpg" />
+    <None Include="Resources\main0_r2_c5.jpg" />
+    <None Include="Resources\main0_r2_c2.jpg" />
+    <None Include="Resources\main0_r2_c2_f2.jpg" />
+    <None Include="Resources\setting_r6_c2.jpg" />
+    <None Include="Resources\main.jpg" />
+    <None Include="Resources\r0.png" />
+    <None Include="Resources\l0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Setting\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CEO_FingerLicense\CEO_FingerLicense.csproj">
+      <Project>{B5393198-1E55-41E5-9573-B44C79FC9B15}</Project>
+      <Name>CEO_FingerLicense</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

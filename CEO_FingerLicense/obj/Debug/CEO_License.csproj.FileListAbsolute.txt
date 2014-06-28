@@ -1,0 +1,12 @@
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FingerLicense\bin\Debug\CEO_FingerLicense.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FingerLicense\bin\Debug\CEO_FingerLicense.pdb
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FingerLicense\bin\Debug\CEO_Devices.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FingerLicense\bin\Debug\CEO_Utils.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FingerLicense\bin\Debug\Newtonsoft.Json.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FingerLicense\bin\Debug\CEO_Devices.pdb
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FingerLicense\bin\Debug\CEO_Utils.pdb
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FingerLicense\obj\Debug\CEO_License.csprojResolveAssemblyReference.cache
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FingerLicense\obj\Debug\CEO_FingerLicense.Lisense.resources
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FingerLicense\obj\Debug\CEO_License.csproj.GenerateResource.Cache
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FingerLicense\obj\Debug\CEO_FingerLicense.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FingerLicense\obj\Debug\CEO_FingerLicense.pdb

@@ -1,0 +1,5 @@
+D:\CEO-SOFTWARE\CEO_Framework\CEO_ReportManager\bin\Debug\CEO_ReportManager.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO_ReportManager\bin\Debug\CEO_ReportManager.pdb
+D:\CEO-SOFTWARE\CEO_Framework\CEO_ReportManager\obj\Debug\ResolveAssemblyReference.cache
+D:\CEO-SOFTWARE\CEO_Framework\CEO_ReportManager\obj\Debug\CEO_ReportManager.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO_ReportManager\obj\Debug\CEO_ReportManager.pdb

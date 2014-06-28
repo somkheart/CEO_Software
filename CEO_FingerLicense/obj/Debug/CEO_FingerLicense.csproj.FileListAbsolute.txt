@@ -1,0 +1,8 @@
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FingerLicense\bin\Debug\CEO_FingerLicense.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FingerLicense\bin\Debug\CEO_FingerLicense.pdb
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FingerLicense\obj\Debug\ResolveAssemblyReference.cache
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FingerLicense\obj\Debug\CEO_FingerLicense.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FingerLicense\obj\Debug\CEO_FingerLicense.pdb
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FingerLicense\obj\Debug\CEO_FingerLicense.Lisense.resources
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FingerLicense\obj\Debug\GenerateResource.read.1.tlog
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FingerLicense\obj\Debug\GenerateResource.write.1.tlog

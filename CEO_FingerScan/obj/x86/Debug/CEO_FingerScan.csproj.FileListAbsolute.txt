@@ -1,0 +1,17 @@
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FingerScan\bin\Debug\CEO_FingerScan.exe
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FingerScan\bin\Debug\CEO_FingerScan.pdb
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FingerScan\bin\Debug\Newtonsoft.Json.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FingerScan\bin\Debug\Interop.ZKFPEngXControl.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FingerScan\bin\Debug\AxInterop.ZKFPEngXControl.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FingerScan\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FingerScan\obj\x86\Debug\Interop.ZKFPEngXControl.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FingerScan\obj\x86\Debug\AxInterop.ZKFPEngXControl.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FingerScan\obj\x86\Debug\CEO_FingerScan.csproj.ResolveComReference.cache
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FingerScan\obj\x86\Debug\CEO_FingerScan.ctlBioKey.resources
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FingerScan\obj\x86\Debug\CEO_FingerScan.frmMain.resources
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FingerScan\obj\x86\Debug\CEO_FingerScan.frmSetting.resources
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FingerScan\obj\x86\Debug\CEO_FingerScan.Properties.Resources.resources
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FingerScan\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FingerScan\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FingerScan\obj\x86\Debug\CEO_FingerScan.exe
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FingerScan\obj\x86\Debug\CEO_FingerScan.pdb

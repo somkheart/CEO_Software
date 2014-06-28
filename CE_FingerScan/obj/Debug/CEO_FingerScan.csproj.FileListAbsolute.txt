@@ -1,0 +1,6 @@
+D:\CEO-SOFTWARE\CEO_Framework\CE_FingerScan\bin\Debug\CE_FingerScan.dll
+D:\CEO-SOFTWARE\CEO_Framework\CE_FingerScan\bin\Debug\CE_FingerScan.pdb
+D:\CEO-SOFTWARE\CEO_Framework\CE_FingerScan\obj\Debug\CEO_FingerScan.Ctrl.CtrlFinger.resources
+D:\CEO-SOFTWARE\CEO_Framework\CE_FingerScan\obj\Debug\CEO_FingerScan.csproj.GenerateResource.Cache
+D:\CEO-SOFTWARE\CEO_Framework\CE_FingerScan\obj\Debug\CE_FingerScan.dll
+D:\CEO-SOFTWARE\CEO_Framework\CE_FingerScan\obj\Debug\CE_FingerScan.pdb

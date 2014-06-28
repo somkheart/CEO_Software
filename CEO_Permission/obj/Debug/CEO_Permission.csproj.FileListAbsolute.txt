@@ -1,0 +1,4 @@
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Permission\bin\Debug\CEO_Permission.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Permission\bin\Debug\CEO_Permission.pdb
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Permission\obj\Debug\CEO_Permission.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Permission\obj\Debug\CEO_Permission.pdb

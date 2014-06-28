@@ -1,0 +1,7 @@
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Control\bin\Debug\CEO_Control.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Control\bin\Debug\CEO_Control.pdb
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Control\obj\x86\Debug\CEO_Control.NumberTextBox.resources
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Control\obj\x86\Debug\CEO_Control.Properties.Resources.resources
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Control\obj\x86\Debug\CEO_Control.csproj.GenerateResource.Cache
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Control\obj\x86\Debug\CEO_Control.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Control\obj\x86\Debug\CEO_Control.pdb

@@ -1,0 +1,29 @@
+D:\CEO-SOFTWARE\CEO_Framework\CEO-FPM V3.0 Standard\bin\Debug\Manual\manual.pdf
+D:\CEO-SOFTWARE\CEO_Framework\CEO-FPM V3.0 Standard\bin\Debug\CEO-FPM V3.0 Standard.exe.config
+D:\CEO-SOFTWARE\CEO_Framework\CEO-FPM V3.0 Standard\bin\Debug\CEO-FPM V3.0 Standard.exe
+D:\CEO-SOFTWARE\CEO_Framework\CEO-FPM V3.0 Standard\bin\Debug\CEO-FPM V3.0 Standard.pdb
+D:\CEO-SOFTWARE\CEO_Framework\CEO-FPM V3.0 Standard\bin\Debug\CEO_Authentication.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO-FPM V3.0 Standard\bin\Debug\CEO_FingerLicense.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO-FPM V3.0 Standard\bin\Debug\CE_FingerScan.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO-FPM V3.0 Standard\bin\Debug\Newtonsoft.Json.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO-FPM V3.0 Standard\bin\Debug\CEO_Utils.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO-FPM V3.0 Standard\bin\Debug\CEO_Devices.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO-FPM V3.0 Standard\bin\Debug\CEO_Authentication.pdb
+D:\CEO-SOFTWARE\CEO_Framework\CEO-FPM V3.0 Standard\bin\Debug\CEO_FingerLicense.pdb
+D:\CEO-SOFTWARE\CEO_Framework\CEO-FPM V3.0 Standard\bin\Debug\CE_FingerScan.pdb
+D:\CEO-SOFTWARE\CEO_Framework\CEO-FPM V3.0 Standard\bin\Debug\CEO_Utils.pdb
+D:\CEO-SOFTWARE\CEO_Framework\CEO-FPM V3.0 Standard\bin\Debug\CEO_Devices.pdb
+D:\CEO-SOFTWARE\CEO_Framework\CEO-FPM V3.0 Standard\obj\x86\Debug\CEO-FPM V3.0 Standard.csprojResolveAssemblyReference.cache
+D:\CEO-SOFTWARE\CEO_Framework\CEO-FPM V3.0 Standard\obj\x86\Debug\CEO_FPM_V3._0_Standard.Ctrl.ctlLogo.resources
+D:\CEO-SOFTWARE\CEO_Framework\CEO-FPM V3.0 Standard\obj\x86\Debug\CEO_FPM_V3._0_Standard.Ctrl.CtrlBackground.resources
+D:\CEO-SOFTWARE\CEO_Framework\CEO-FPM V3.0 Standard\obj\x86\Debug\CEO_FPM_V3._0_Standard.Ctrl.CtrlControlBar.resources
+D:\CEO-SOFTWARE\CEO_Framework\CEO-FPM V3.0 Standard\obj\x86\Debug\CEO_FPM_V3._0_Standard.Ctrl.CtrlExportButton.resources
+D:\CEO-SOFTWARE\CEO_Framework\CEO-FPM V3.0 Standard\obj\x86\Debug\CEO_FPM_V3._0_Standard.Ctrl.CtrlLogin.resources
+D:\CEO-SOFTWARE\CEO_Framework\CEO-FPM V3.0 Standard\obj\x86\Debug\CEO_FPM_V3._0_Standard.Ctrl.CtrlRegister.resources
+D:\CEO-SOFTWARE\CEO_Framework\CEO-FPM V3.0 Standard\obj\x86\Debug\CEO_FPM_V3._0_Standard.frmLogin.resources
+D:\CEO-SOFTWARE\CEO_Framework\CEO-FPM V3.0 Standard\obj\x86\Debug\CEO_FPM_V3._0_Standard.frmMain.resources
+D:\CEO-SOFTWARE\CEO_Framework\CEO-FPM V3.0 Standard\obj\x86\Debug\CEO_FPM_V3._0_Standard.Properties.Resources.resources
+D:\CEO-SOFTWARE\CEO_Framework\CEO-FPM V3.0 Standard\obj\x86\Debug\CEO-FPM V3.0 Standard.csproj.GenerateResource.Cache
+D:\CEO-SOFTWARE\CEO_Framework\CEO-FPM V3.0 Standard\obj\x86\Debug\CEO-FPM V3.0 Standard.exe
+D:\CEO-SOFTWARE\CEO_Framework\CEO-FPM V3.0 Standard\obj\x86\Debug\CEO-FPM V3.0 Standard.pdb
+D:\CEO-SOFTWARE\CEO_Framework\CEO-FPM V3.0 Standard\bin\Debug\AxInterop.ZKFPEngXControl.dll

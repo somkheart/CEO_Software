@@ -1,0 +1,4 @@
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Test\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Test\obj\x86\Debug\CEO_Test.Properties.Resources.resources
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Test\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Test\obj\x86\Debug\GenerateResource.write.1.tlog

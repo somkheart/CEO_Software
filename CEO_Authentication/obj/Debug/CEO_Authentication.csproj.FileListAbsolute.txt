@@ -1,0 +1,4 @@
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Authentication\bin\Debug\CEO_Authentication.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Authentication\bin\Debug\CEO_Authentication.pdb
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Authentication\obj\Debug\CEO_Authentication.dll
+D:\CEO-SOFTWARE\CEO_Framework\CEO_Authentication\obj\Debug\CEO_Authentication.pdb
