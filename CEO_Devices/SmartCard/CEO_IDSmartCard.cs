@@ -7,7 +7,7 @@ namespace CEO_Devices.SmartCard
 {
    public interface ISmartCardReader
 	{
-		void SelectReader(string readerName);
+		void SelectCard(string readerName);
 		string[] GetReaderLists();
 		bool GetCardStatus();
 		string GetSerialNumber();

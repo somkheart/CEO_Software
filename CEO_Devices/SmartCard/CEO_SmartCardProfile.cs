@@ -98,7 +98,7 @@ namespace CEO_Devices.SmartCard
                     }
                     catch
                     {
-                        MessageBox.Show("Error in Moo raw data = " + text);
+                        MessageBox.Show("หมู่ที่ไม่ถูกต้อง = " + text);
                         cardHolderProfile.Moo = 0;
                     }
                 }

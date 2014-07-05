@@ -88,7 +88,7 @@ namespace CEO_Devices.SmartCard
             num2 = CEO_WinPCSC.SCardFreeMemory(this.handleContext, zero2);
             return result;
         }
-        public void SelectReader(string readerName)
+        public void SelectCard(string readerName)
         {
             this.activeReader = readerName;
         }

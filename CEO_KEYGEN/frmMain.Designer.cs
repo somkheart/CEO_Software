@@ -34,7 +34,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txtSerialKey = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.txtDealerID = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.cbProgram = new System.Windows.Forms.ComboBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -42,6 +41,7 @@
             this.sToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dealerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cbDealerID = new System.Windows.Forms.ComboBox();
+            this.txtDealerID = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -99,15 +99,6 @@
             this.label4.TabIndex = 7;
             this.label4.Text = "DEALER ID";
             // 
-            // txtDealerID
-            // 
-            this.txtDealerID.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.txtDealerID.Location = new System.Drawing.Point(81, 309);
-            this.txtDealerID.Name = "txtDealerID";
-            this.txtDealerID.Size = new System.Drawing.Size(246, 20);
-            this.txtDealerID.TabIndex = 8;
-            this.txtDealerID.Text = "DL-001";
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -148,13 +139,13 @@
             // sToolStripMenuItem
             // 
             this.sToolStripMenuItem.Name = "sToolStripMenuItem";
-            this.sToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.sToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
             this.sToolStripMenuItem.Text = "Program";
             // 
             // dealerToolStripMenuItem
             // 
             this.dealerToolStripMenuItem.Name = "dealerToolStripMenuItem";
-            this.dealerToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.dealerToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
             this.dealerToolStripMenuItem.Text = "Dealer";
             // 
             // cbDealerID
@@ -164,6 +155,15 @@
             this.cbDealerID.Name = "cbDealerID";
             this.cbDealerID.Size = new System.Drawing.Size(247, 21);
             this.cbDealerID.TabIndex = 12;
+            // 
+            // txtDealerID
+            // 
+            this.txtDealerID.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtDealerID.Location = new System.Drawing.Point(252, 290);
+            this.txtDealerID.Name = "txtDealerID";
+            this.txtDealerID.Size = new System.Drawing.Size(246, 20);
+            this.txtDealerID.TabIndex = 8;
+            this.txtDealerID.Text = "DL-001";
             // 
             // frmMain
             // 
@@ -203,7 +203,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtSerialKey;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtDealerID;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox cbProgram;
         private System.Windows.Forms.MenuStrip menuStrip1;
@@ -211,5 +210,6 @@
         private System.Windows.Forms.ToolStripMenuItem sToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem dealerToolStripMenuItem;
         private System.Windows.Forms.ComboBox cbDealerID;
+        private System.Windows.Forms.TextBox txtDealerID;
     }
 }

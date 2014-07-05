@@ -41,7 +41,7 @@ namespace CEO_Devices.SmartCard
         public CEO_SmartCard  getSmartCardInfo()
         {
             cbSmartCard.DataSource = reader.GetReaderLists();
-            reader.SelectReader(cbSmartCard.Text);
+            reader.SelectCard(cbSmartCard.Text);
             bool connect = reader.Connect();
             if (connect)
             {
@@ -63,7 +63,7 @@ namespace CEO_Devices.SmartCard
         public String GetJsonSmartCardInfo()
         {
             cbSmartCard.DataSource = reader.GetReaderLists();
-            reader.SelectReader(cbSmartCard.Text);
+            reader.SelectCard(cbSmartCard.Text);
             bool connect = reader.Connect();
             if (connect)
             {

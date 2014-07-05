@@ -29,13 +29,15 @@ namespace CEO_KEYGEN
             tmpSoftware.SoftwareCode = "INS01";
             tmpSoftware.SoftwareName = "โปรแกรมบัตรประชาชน";
             ///cbProgram.Items.Add("โปรแกรมบัตรประชาชน");
-
+            ///
             List<DealerInfo> dealerList = new List<DealerInfo>();
             DealerInfo dealerInfo;
+
             dealerInfo = new DealerInfo();
             dealerInfo.DealerID = "INS01";
             dealerInfo.DealerName = "บริษัทอินเตอร์ไซต์ประเทศไทย (จำกัด)";
             dealerList.Add(dealerInfo);
+
             cbDealerID.ValueMember = "DealerName";
             cbDealerID.ValueMember = "DealerID";
             cbDealerID.DataSource = dealerList;
@@ -43,8 +45,7 @@ namespace CEO_KEYGEN
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            txtSerialKey.Text = CEO_FingerLicense.License.GetSerialKey(this.txtProductKey.Text, txtDealerID.Text,"SMARTCARD");
-
+            txtSerialKey.Text = CEO_FingerLicense.License.GetSerialKey(this.txtProductKey.Text, txtDealerID.Text, "SMARTCARD");
         }
         private void textBox3_TextChanged(object sender, EventArgs e)
         {

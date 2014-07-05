@@ -30,7 +30,7 @@ namespace CEO_SmartCard4._0
 
 
             SoftwareName = "CEO-SmartCard 1.0";
-           // register.SoftwareCode = "CEO-001";
+            // register.SoftwareCode = "CEO-001";
         }
 
         private void frmMain_Load(object sender, EventArgs e)
@@ -38,7 +38,7 @@ namespace CEO_SmartCard4._0
         }
         private void button1_Click(object sender, EventArgs e)
         {
-           
+
         }
         private void releaseObject(object obj)
         {
@@ -65,23 +65,23 @@ namespace CEO_SmartCard4._0
 
         private void button2_Click(object sender, EventArgs e)
         {
-           
+
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-          String SoftwareCode = "INTERSITE";
-          bool check = SoftwareKey.checkRegistedKey(SoftwareCode);
-          if (check)
-          {
+            String SoftwareCode = "INTERSITE";
+            bool check = SoftwareKey.checkRegistedKey(SoftwareCode);
+            if (check)
+            {
 
-              ctrlDevice.Config.loadPhoto = true;
-              ctlSmartCard.SetValue(ctrlDevice.getSmartCardInfo());
-          }
-          else
-          {
-              MessageBox.Show(" กรุณาทำการลงทะเบียน ");
-          }
+                ctrlDevice.Config.loadPhoto = true;
+                ctlSmartCard.SetValue(ctrlDevice.getSmartCardInfo());
+            }
+            else
+            {
+                MessageBox.Show(" กรุณาทำการลงทะเบียน ");
+            }
         }
 
         private void ctlSmardCard1_Load(object sender, EventArgs e)
@@ -106,7 +106,7 @@ namespace CEO_SmartCard4._0
         {
             String tmpFileName;
             tmpFileName = ctrlDevice.getSmartCardInfo().NationalID;
-            TextWriter tw = new StreamWriter("c://"+tmpFileName+".txt");
+            TextWriter tw = new StreamWriter("c://" + tmpFileName + ".txt");
             tw.WriteLine(ctrlDevice.GetJsonSmartCardInfo());
             tw.Close();
 
@@ -133,9 +133,11 @@ namespace CEO_SmartCard4._0
             if (register.IsDisposed)
             {
                 register = new frmRegis();
+        
             }
             else
             {
+               //addForm(register);
                 register.ShowDialog();
             }
         }
@@ -143,7 +145,13 @@ namespace CEO_SmartCard4._0
         private void เกยวกบเราToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
-            
+        }
+        private void addForm(Form form)
+        {
+            form.TopLevel = false;
+            form.AutoScroll = true;
+            Activate.Controls.Add(form);
+            form.Show();
         }
     }
 }
