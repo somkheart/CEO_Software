@@ -4,3 +4,4 @@ D:\CEO-SOFTWARE\CEO_Framework\CEO_ModuleMananger\obj\x86\Debug\CEO_ModuleManange
 D:\CEO-SOFTWARE\CEO_Framework\CEO_ModuleMananger\obj\x86\Debug\CEO_ModuleMananger.dll
 D:\CEO-SOFTWARE\CEO_Framework\CEO_ModuleMananger\obj\x86\Debug\CEO_ModuleMananger.pdb
 D:\CEO-SOFTWARE\CEO_Framework\CEO_ModuleMananger\obj\x86\Debug\CEO_ModuleLoader.csproj.GenerateResource.Cache
+D:\CEO-SOFTWARE\CEO_Framework\CEO_ModuleMananger\obj\x86\Debug\CEO_ModuleLoader.csprojResolveAssemblyReference.cache

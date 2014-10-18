@@ -14,7 +14,6 @@ namespace CEO_Utils
             get { return showError; }
             set { showError = value; }
         }
-       // private string subKey = "SOFTWARE\\" + Application.ProductName.ToUpper();
         private string subKey = "SOFTWARE\\CEO-SOFTWARE";
         public string SubKey
         {
@@ -27,8 +26,9 @@ namespace CEO_Utils
             get { return baseRegistryKey; }
             set { baseRegistryKey = value; }
         }
-        public string Read(string KeyName)
+        public string Read(String SoftwareName, String keyName)
         {
+            subKey = subKey + "\\" + SoftwareName;
             RegistryKey rk = baseRegistryKey;
             RegistryKey sk1 = rk.OpenSubKey(subKey);
             if (sk1 == null)
@@ -39,22 +39,32 @@ namespace CEO_Utils
             {
                 try
                 {
-                    return (string)sk1.GetValue(KeyName.ToUpper());
+                    return (string)sk1.GetValue(keyName.ToUpper());
                 }
                 catch (Exception e)
                 {
-                    ShowErrorMessage(e, "Reading registry " + KeyName.ToUpper());
+                    ShowErrorMessage(e, "Reading registry " + keyName.ToUpper());
                     return null;
                 }
             }
         }
-        public bool Write(string KeyName, object Value)
+ 
+        public bool Write(String SoftwareName,string KeyName, object Value)
         {
+            subKey = subKey + "\\" + SoftwareName;
             try
             {
                 RegistryKey rk = baseRegistryKey;
-                RegistryKey sk1 = rk.CreateSubKey(subKey);
-                sk1.SetValue(KeyName.ToUpper(), Value);
+               
+                RegistryKey sk1 = rk.OpenSubKey(subKey);
+                if (Value != null)
+                {
+                    sk1.SetValue(KeyName.ToUpper(), Value);
+                }
+                else
+                {
+                    sk1.SetValue(KeyName.ToUpper(), "");
+                }
                 return true;
             }
             catch (Exception e)
@@ -82,7 +92,6 @@ namespace CEO_Utils
                 return false;
             }
         }
-
         public bool DeleteSubKeyTree()
         {
             try

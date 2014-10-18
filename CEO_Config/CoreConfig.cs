@@ -5,14 +5,17 @@ using System.Text;
 
 namespace CEO_Configuration
 {
-    class CoreConfig
+   public  class CoreConfig
     {
         private String _ConnectionString;
-
         public String ConnectionString
         {
             get { return _ConnectionString; }
             set { _ConnectionString = value; }
+        }
+        public static String  SettingFile
+        {
+            get { return "Setting.txt"; }
         }
     }
 }

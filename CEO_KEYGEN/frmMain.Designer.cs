@@ -41,13 +41,12 @@
             this.sToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dealerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cbDealerID = new System.Windows.Forms.ComboBox();
-            this.txtDealerID = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(252, 251);
+            this.button1.Location = new System.Drawing.Point(125, 151);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
@@ -58,15 +57,15 @@
             // txtProductKey
             // 
             this.txtProductKey.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.txtProductKey.Location = new System.Drawing.Point(253, 138);
+            this.txtProductKey.Location = new System.Drawing.Point(128, 67);
             this.txtProductKey.Name = "txtProductKey";
-            this.txtProductKey.Size = new System.Drawing.Size(246, 20);
+            this.txtProductKey.Size = new System.Drawing.Size(217, 20);
             this.txtProductKey.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(163, 141);
+            this.label1.Location = new System.Drawing.Point(38, 68);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(84, 13);
             this.label1.TabIndex = 2;
@@ -75,7 +74,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(180, 229);
+            this.label3.Location = new System.Drawing.Point(50, 132);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(69, 13);
             this.label3.TabIndex = 5;
@@ -84,16 +83,16 @@
             // txtSerialKey
             // 
             this.txtSerialKey.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.txtSerialKey.Location = new System.Drawing.Point(253, 225);
+            this.txtSerialKey.Location = new System.Drawing.Point(128, 125);
             this.txtSerialKey.Name = "txtSerialKey";
-            this.txtSerialKey.Size = new System.Drawing.Size(246, 20);
+            this.txtSerialKey.Size = new System.Drawing.Size(217, 20);
             this.txtSerialKey.TabIndex = 6;
             this.txtSerialKey.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(180, 201);
+            this.label4.Location = new System.Drawing.Point(55, 106);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(64, 13);
             this.label4.TabIndex = 7;
@@ -102,7 +101,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(185, 171);
+            this.label2.Location = new System.Drawing.Point(60, 34);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(62, 13);
             this.label2.TabIndex = 9;
@@ -111,9 +110,9 @@
             // cbProgram
             // 
             this.cbProgram.FormattingEnabled = true;
-            this.cbProgram.Location = new System.Drawing.Point(252, 167);
+            this.cbProgram.Location = new System.Drawing.Point(128, 33);
             this.cbProgram.Name = "cbProgram";
-            this.cbProgram.Size = new System.Drawing.Size(247, 21);
+            this.cbProgram.Size = new System.Drawing.Size(217, 21);
             this.cbProgram.TabIndex = 10;
             // 
             // menuStrip1
@@ -123,7 +122,7 @@
             this.programToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(664, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(357, 24);
             this.menuStrip1.TabIndex = 11;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -151,29 +150,19 @@
             // cbDealerID
             // 
             this.cbDealerID.FormattingEnabled = true;
-            this.cbDealerID.Location = new System.Drawing.Point(253, 198);
+            this.cbDealerID.Location = new System.Drawing.Point(128, 98);
             this.cbDealerID.Name = "cbDealerID";
-            this.cbDealerID.Size = new System.Drawing.Size(247, 21);
+            this.cbDealerID.Size = new System.Drawing.Size(217, 21);
             this.cbDealerID.TabIndex = 12;
-            // 
-            // txtDealerID
-            // 
-            this.txtDealerID.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.txtDealerID.Location = new System.Drawing.Point(252, 290);
-            this.txtDealerID.Name = "txtDealerID";
-            this.txtDealerID.Size = new System.Drawing.Size(246, 20);
-            this.txtDealerID.TabIndex = 8;
-            this.txtDealerID.Text = "DL-001";
             // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(664, 415);
+            this.ClientSize = new System.Drawing.Size(357, 182);
             this.Controls.Add(this.cbDealerID);
             this.Controls.Add(this.cbProgram);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.txtDealerID);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtSerialKey);
             this.Controls.Add(this.label3);
@@ -210,6 +199,5 @@
         private System.Windows.Forms.ToolStripMenuItem sToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem dealerToolStripMenuItem;
         private System.Windows.Forms.ComboBox cbDealerID;
-        private System.Windows.Forms.TextBox txtDealerID;
     }
 }

@@ -3,5 +3,5 @@ D:\CEO-SOFTWARE\CEO_Framework\CEO_FileManager\bin\Debug\CEO_FileManager.dll
 D:\CEO-SOFTWARE\CEO_Framework\CEO_FileManager\bin\Debug\CEO_FileManager.pdb
 D:\CEO-SOFTWARE\CEO_Framework\CEO_FileManager\obj\x86\Debug\CEO_FileManager.dll
 D:\CEO-SOFTWARE\CEO_Framework\CEO_FileManager\obj\x86\Debug\CEO_FileManager.pdb
-D:\CEO-SOFTWARE\CEO_Framework\CEO_FileManager\obj\x86\Debug\CEO_FileManager.csprojResolveAssemblyReference.cache
 D:\CEO-SOFTWARE\CEO_Framework\CEO_FileManager\obj\x86\Debug\CEO_FileManager.csproj.GenerateResource.Cache
+D:\CEO-SOFTWARE\CEO_Framework\CEO_FileManager\obj\x86\Debug\CEO_FileManager.csprojResolveAssemblyReference.cache

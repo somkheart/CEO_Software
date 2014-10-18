@@ -1,0 +1,1 @@
+{"overwrite":false,"picture":true,"info":true,"ImagePath":""}

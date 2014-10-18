@@ -18,14 +18,29 @@ namespace CEO_FingerLicense
             serialKeyResult = tmpSerialKey.Substring(0, 5) + "-" + tmpSerialKey.Substring(5, 5) + "-" + tmpSerialKey.Substring(10, 5);
             return serialKeyResult.Equals(SerialKey);
         }
-        public static bool saveSerialKey(String DealerID,String SoftwareKey,String SerialKey)
+        //public static bool saveSerialKey(String SoftwareName,String DealerID, String SoftwareKey, String SerialKey)
+        //{
+        //    try
+        //    {
+        //        CEORegistry reg = new CEORegistry();
+        //        reg.Write(SoftwareName, "DealerID", DealerID);
+        //        reg.Write(SoftwareName, "SoftwareKey", SoftwareKey);
+        //        reg.Write(SoftwareName, "SerialKey", SerialKey);
+        //        return true;
+        //    }
+        //    catch
+        //    {
+        //        return true;
+        //    }
+        //}
+        public static bool saveSerialKey(String SoftwareName,String DealerID,String SoftwareCode,String SerialKey)
         {
             try
             {
                 CEORegistry reg = new CEORegistry();
-                reg.Write("DealerID", DealerID);
-                reg.Write("SoftwareKey", SoftwareKey);
-                reg.Write("SerialKey", SerialKey);
+                reg.Write(SoftwareName,"DealerID", DealerID);
+                reg.Write(SoftwareName, "SoftwareKey", SoftwareCode);
+                reg.Write(SoftwareName, "SerialKey", SerialKey);
                 return true;
             }
             catch
@@ -33,6 +48,7 @@ namespace CEO_FingerLicense
                 return true;
             }
         }
+
         public static bool checkRegistedKey(String SoftwareName)
         {
             String DealerID;
@@ -46,17 +62,17 @@ namespace CEO_FingerLicense
         public static String GetDealerID(String SoftwareName)
         {
             CEORegistry reg = new CEORegistry();
-            return reg.Read("DealerID");
+            return reg.Read(SoftwareName, "DealerID");
         }
         public   static String GetSoftwareKey(String SoftwareName)
         {
             CEORegistry reg = new CEORegistry();
-            return reg.Read("SoftwareKey");
+            return reg.Read(SoftwareName,"SoftwareKey");
         }
         public static String GetSerialKey(String SoftwareName)
         {
             CEORegistry reg = new CEORegistry();
-            return reg.Read("SerialKey");
+            return reg.Read(SoftwareName,"SerialKey");
         }
         public static String GetProductKey()
         {

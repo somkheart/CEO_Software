@@ -79,7 +79,7 @@
             // lbExpireDate
             // 
             this.lbExpireDate.AutoSize = true;
-            this.lbExpireDate.Location = new System.Drawing.Point(313, 194);
+            this.lbExpireDate.Location = new System.Drawing.Point(313, 191);
             this.lbExpireDate.Name = "lbExpireDate";
             this.lbExpireDate.Size = new System.Drawing.Size(10, 13);
             this.lbExpireDate.TabIndex = 18;
@@ -89,7 +89,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.label3.Location = new System.Drawing.Point(240, 193);
+            this.label3.Location = new System.Drawing.Point(241, 193);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(66, 13);
             this.label3.TabIndex = 17;
@@ -107,7 +107,7 @@
             // lbBirthday
             // 
             this.lbBirthday.AutoSize = true;
-            this.lbBirthday.Location = new System.Drawing.Point(312, 162);
+            this.lbBirthday.Location = new System.Drawing.Point(313, 164);
             this.lbBirthday.Name = "lbBirthday";
             this.lbBirthday.Size = new System.Drawing.Size(10, 13);
             this.lbBirthday.TabIndex = 13;
@@ -116,7 +116,7 @@
             // lbLastName
             // 
             this.lbLastName.AutoSize = true;
-            this.lbLastName.Location = new System.Drawing.Point(311, 137);
+            this.lbLastName.Location = new System.Drawing.Point(313, 137);
             this.lbLastName.Name = "lbLastName";
             this.lbLastName.Size = new System.Drawing.Size(10, 13);
             this.lbLastName.TabIndex = 12;
@@ -125,7 +125,7 @@
             // lbEnglishName
             // 
             this.lbEnglishName.AutoSize = true;
-            this.lbEnglishName.Location = new System.Drawing.Point(310, 109);
+            this.lbEnglishName.Location = new System.Drawing.Point(313, 110);
             this.lbEnglishName.Name = "lbEnglishName";
             this.lbEnglishName.Size = new System.Drawing.Size(10, 13);
             this.lbEnglishName.TabIndex = 11;
@@ -145,7 +145,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.label6.Location = new System.Drawing.Point(250, 163);
+            this.label6.Location = new System.Drawing.Point(251, 163);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(56, 13);
             this.label6.TabIndex = 7;
@@ -155,7 +155,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.label5.Location = new System.Drawing.Point(245, 136);
+            this.label5.Location = new System.Drawing.Point(246, 136);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(61, 13);
             this.label5.TabIndex = 6;
@@ -165,7 +165,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.label4.Location = new System.Drawing.Point(265, 109);
+            this.label4.Location = new System.Drawing.Point(266, 109);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(41, 13);
             this.label4.TabIndex = 5;
@@ -174,7 +174,7 @@
             // lbThaiName
             // 
             this.lbThaiName.AutoSize = true;
-            this.lbThaiName.Location = new System.Drawing.Point(309, 83);
+            this.lbThaiName.Location = new System.Drawing.Point(313, 83);
             this.lbThaiName.Name = "lbThaiName";
             this.lbThaiName.Size = new System.Drawing.Size(10, 13);
             this.lbThaiName.TabIndex = 4;
@@ -193,7 +193,7 @@
             // lbNationalID
             // 
             this.lbNationalID.AutoSize = true;
-            this.lbNationalID.Location = new System.Drawing.Point(309, 55);
+            this.lbNationalID.Location = new System.Drawing.Point(313, 56);
             this.lbNationalID.Name = "lbNationalID";
             this.lbNationalID.Size = new System.Drawing.Size(10, 13);
             this.lbNationalID.TabIndex = 2;

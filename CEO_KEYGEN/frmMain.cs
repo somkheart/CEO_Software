@@ -24,12 +24,12 @@ namespace CEO_KEYGEN
         {
             String tmpCPU = CEO_Devices.CPU.GetCPUKey();
             String tmpMac = CEO_Devices.Network.GetMacAddressKey();
+
             txtProductKey.Text = tmpCPU + "-" + tmpMac;
             SoftwareInfo tmpSoftware = new SoftwareInfo();
+
             tmpSoftware.SoftwareCode = "INS01";
             tmpSoftware.SoftwareName = "โปรแกรมบัตรประชาชน";
-            ///cbProgram.Items.Add("โปรแกรมบัตรประชาชน");
-            ///
             List<DealerInfo> dealerList = new List<DealerInfo>();
             DealerInfo dealerInfo;
 
@@ -45,7 +45,7 @@ namespace CEO_KEYGEN
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            txtSerialKey.Text = CEO_FingerLicense.License.GetSerialKey(this.txtProductKey.Text, txtDealerID.Text, "SMARTCARD");
+            txtSerialKey.Text = CEO_FingerLicense.License.GetSerialKey(this.txtProductKey.Text, cbDealerID.ValueMember, cbProgram.ValueMember);
         }
         private void textBox3_TextChanged(object sender, EventArgs e)
         {

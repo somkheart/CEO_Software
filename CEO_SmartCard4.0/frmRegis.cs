@@ -23,6 +23,13 @@ namespace CEO_SmartCard4._0
             get { return _SoftwareCode; }
             set { _SoftwareCode = value; }
         }
+        private String _SoftwareName;
+
+        public String SoftwareName
+        {
+            get { return _SoftwareName; }
+            set { _SoftwareName = value; }
+        }
         private String _DealerID;
 
         public String DealerID
@@ -44,7 +51,7 @@ namespace CEO_SmartCard4._0
                   serialKey = SoftwareKey.GetSerialKey(this.SoftwareCode, txtDealerID.Text, txtProductKey.Text);
                   if (SoftwareKey.checkKey(DealerID, this.SoftwareCode, serialKey))
                   {
-                      SoftwareKey.saveSerialKey(DealerID, SoftwareCode, serialKey);
+                      SoftwareKey.saveSerialKey(this.SoftwareName,DealerID, SoftwareCode, serialKey);
                       setDisable();
                   }
                   else

@@ -38,6 +38,10 @@ namespace CEO_Devices.SmartCard
         {
             cbSmartCard.DataSource= reader.GetReaderLists();
         }
+        public String[] getReaderList()
+        {
+            return reader.GetReaderLists();
+        }
         public CEO_SmartCard  getSmartCardInfo()
         {
             cbSmartCard.DataSource = reader.GetReaderLists();
@@ -56,7 +60,7 @@ namespace CEO_Devices.SmartCard
             }
             else
             {
-                MessageBox.Show("ไม่สำเร็จ");
+                //MessageBox.Show("ไม่สำเร็จ");
                 return null;
             }
         }
@@ -88,6 +92,11 @@ namespace CEO_Devices.SmartCard
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cbSmartCard_SelectedIndexChanged_1(object sender, EventArgs e)
         {
 
         }

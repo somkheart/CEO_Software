@@ -42,6 +42,7 @@
             this.cbSmartCard.Name = "cbSmartCard";
             this.cbSmartCard.Size = new System.Drawing.Size(403, 21);
             this.cbSmartCard.TabIndex = 0;
+            this.cbSmartCard.SelectedIndexChanged += new System.EventHandler(this.cbSmartCard_SelectedIndexChanged_1);
             // 
             // label1
             // 
