@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using CEO_Devices;
+using System.IO;
 
 namespace CEO_KEYGEN
 {
@@ -27,7 +28,7 @@ namespace CEO_KEYGEN
 
             txtProductKey.Text = tmpCPU + "-" + tmpMac;
             SoftwareInfo tmpSoftware = new SoftwareInfo();
-
+            ReadValues();
             tmpSoftware.SoftwareCode = "INS01";
             tmpSoftware.SoftwareName = "โปรแกรมบัตรประชาชน";
             List<DealerInfo> dealerList = new List<DealerInfo>();
@@ -52,7 +53,27 @@ namespace CEO_KEYGEN
         }
         private void button2_Click(object sender, EventArgs e)
         {
+        }
+        private void ReadValues()
+        {
+            string appPath = Path.GetDirectoryName(Application.ExecutablePath);
+            appPath = Path.Combine(appPath, "SoftwareList.csv");
+            var reader = new StreamReader(File.OpenRead(appPath),Encoding.Unicode);
+            List<SoftwareInfo> listSoftinfo = new List<SoftwareInfo>();
+            while (!reader.EndOfStream)
+            {
+                SoftwareInfo info = new SoftwareInfo();
 
+                var line = reader.ReadLine();
+                var values = line.Split(',');
+                info.SoftwareCode = values[0];
+                info.SoftwareName = values[1];
+                listSoftinfo.Add(info);
+            }
+            listSoftinfo.RemoveAt(0);
+            cbProgram.ValueMember = "SoftwareCode";
+            cbProgram.DisplayMember = "SoftwareName";
+            cbProgram.DataSource = listSoftinfo;
         }
     }
 }
